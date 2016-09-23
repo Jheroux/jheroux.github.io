@@ -1,0 +1,285 @@
+/* ------------------------FONT FACE----------------------------- */
+
+@font-face {
+    font-family: Lobster-Regular;
+    src: url('../fonts/Lobster-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    
+    font-family: Geomanist-Light;
+    src: url('../fonts/Geomanist-Light.otf') format('opentype');   
+    
+}
+
+/* ------------------------END FONT FACE----------------------------- */
+
+
+/* ------------------------JUMBOTRON----------------------------- */
+
+.jumbotron {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    margin-bottom: 0;
+    color: inherit;
+    background-color: #196096;
+}
+
+
+@media screen and (min-width: 768px){
+.jumbotron {
+    background-color: #196096;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+    
+.jumbotron img{
+ margin-left: 15px; 
+     
+    
+}
+}
+
+
+.sidebar-brand{
+ padding-left: 170px;
+    
+ 
+}
+
+.sidebar-brand a{
+ font-size: 30px;
+ 
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #cc1c1c;
+    background: none;
+}
+
+
+
+@media screen and (max-width: 767px){
+#header-top{
+   
+     display: none;
+}   
+
+
+}
+
+@media screen and (min-width: 768px){
+#header-top-mobile{
+  
+     display: none;
+    
+}
+
+
+}
+
+
+
+
+/* ------------------------JUMBOTRON END----------------------------- */
+
+/* ------------------------BUTTON SECTION----------------------------- */
+
+#buttonSection{  
+ padding-top: 25px; 
+    
+    
+}
+
+
+
+
+/* ------------------------BUTTON SECTION END----------------------------- */
+
+/* ------------------------RECENT WORKS----------------------------- */
+
+.page-header-s {
+    font-family: Lobster-Regular;
+    text-align: center;
+    margin: 40px 0 0;
+    font-size: 40px;
+    
+}
+
+hr{
+    margin-top: 10px;
+    width: 100px;
+    border: 0;
+    border-top: 1px solid #196096;   
+    
+}
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+		
+		
+.port img { transition: all .2s ease-in-out; }
+.port img:hover { transform: scale(1.1); }
+.port col-sm-4{
+ width: 100%;   
+    
+}
+
+}
+
+
+
+/* ------------------------RECENTS WORKS END----------------------------- */
+
+
+.well {
+    
+    padding-top:25px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0!important;
+    background-color: #196096;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+
+}
+
+.well h3{
+ font-family: Lobster-Regular;    
+ margin-top: 40px;
+ font-size: 43px;
+ color: #efe;    
+    
+}
+
+.well p{
+ font-family: Geomanist-Light;    
+ font-size: 24px;
+ color: #efe;    
+    
+}
+
+.well .col-sm-6{
+ text-align: center;   
+        
+}
+
+.well .btn{
+ text-align: center;
+ margin: 50px auto;   
+    
+}
+
+
+.btn-block {
+    background-color: #E52E3B;
+    border-color: #E52E3B;
+    color: #fff;
+    display: block;
+    width: 200px;
+   margin-top: 50px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 14px 16px 10px;
+    font-family: Lobster-Regular;
+    font-size: 36px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.swagyo .btn-lg  {
+    width: 100%;
+    font-family: Lobster-Regular;
+    font-size: 36px;
+    background-color: #196096;
+    color: #fff;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.swagyo .btn:hover {
+    color: #196096;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #196096;
+    text-decoration: none;
+}
+
+
+
+/* Footer Styles */
+
+footer {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: #333333;
+    
+}
+
+footer p{
+ margin-top: 20px;    
+ text-align: center;
+ font-family: Geomanist-Light;
+ font-size: 20px;
+ color: #efe;   
+     
+    
+}
+
+footer strong{
+    
+ font-family: Lobster-Regular;
+ font-size: 20px;
+ color: #efe;    
+    
+    
+}
+
+footer .col-sm-6{
+   text-align: center; 
+   margin: 15px auto; 
+    
+}
+
+
+
+
