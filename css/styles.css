@@ -27,6 +27,15 @@
     background-color: #196096;
 }
 
+#social-m img{
+ width: 25px;
+ height: 25px;
+ float: right;    
+ margin-right: 25px;    
+    
+    
+    
+}
 
 @media screen and (min-width: 768px){
 .jumbotron {
@@ -84,6 +93,8 @@
 
 
 /* ------------------------JUMBOTRON END----------------------------- */
+
+
 
 /* ------------------------BUTTON SECTION----------------------------- */
 
