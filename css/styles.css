@@ -46,6 +46,7 @@
     
 .jumbotron img{
  margin-left: 15px; 
+    
      
     
 }
@@ -135,6 +136,14 @@ hr{
 }
 
 /* Responsive Styles */
+
+@media (min-width: 1730px){
+.container {
+    width: 1700px;
+}
+}
+
+
 
 @media(max-width:991px) {
     .customer-img,
