@@ -30,7 +30,7 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                <a href="">X</a>
+                <a id="menu-toggle-2" href="#">X</a>
                 </li>
                 <li>
                     <a href="index.html">Home</a>
@@ -321,6 +321,51 @@
             </div>
                 
                 
+                <div class="col-sm-4 col-sm-6">
+                <div class="image-box">
+                  <div class="overlay-container">    
+                    <img class="img-responsive img-portfolio img-hover" src="images/portfolio/3d-gallery.jpg" alt="3d-gallery">
+                      
+                      <a class="overlay" data-toggle="modal" data-target="#project-17">
+                                            <p class="popuptext">3D Gallery</p>
+
+                      </a>
+                      
+                    </div>  
+                </div>  
+                
+                            <!-- Modal -->
+                                <div class="modal fade" id="project-17" tabindex="-17" role="dialog" aria-labelledby="project-16-label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                <h4 class="modal-title" id="project-17-label">Island Render</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h3>Project Description</h3>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <p>Completed October 2014 <br><br> This was my first assignment that I got in 3D graphics.  </p>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="slider">
+                                                            <div><img src="images/portfolio/islandmockup.jpg" alt="red lights"></div>
+                                                            
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Modal end -->
+                
+                
+            </div>
+                
     
                 
    
@@ -352,7 +397,7 @@
         <footer>
             <div class="row">
                 <div align="center" class="col-sm-6">
-                    <p><strong>Email:</strong> jordan.s.heroux@gmail.com</p>  
+                    <p><strong>Email:</strong> jheroux@confederationc.on.ca</p>  
                      
                 </div>
                 
@@ -377,8 +422,12 @@
 
     <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
+    $("#menu-toggle").click(function(event) {
+        event.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+        $("#menu-toggle-2").click(function(event) {
+        event.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
     </script>

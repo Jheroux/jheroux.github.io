@@ -12,10 +12,10 @@
 }
 
 @font-face {
-    
+
     font-family: Geomanist-Light;
-    src: url('../fonts/Geomanist-Light.otf') format('opentype');   
-    
+    src: url('../fonts/Geomanist-Light.otf') format('opentype');
+
 }
 
 /* ------------------------END FONT FACE----------------------------- */
@@ -38,8 +38,8 @@
 
 #wrapper.toggled {
     padding-left: 250px;
-    
-    
+
+
 }
 
 #sidebar-wrapper {
@@ -56,7 +56,7 @@
     font-family: Lobster-Regular;
     font-size: 24px;
     overflow: hidden;
-    
+
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -67,6 +67,7 @@
 
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
+
 }
 
 #page-content-wrapper {
@@ -75,10 +76,7 @@
     padding: 15px;
 }
 
-#wrapper.toggled #page-content-wrapper {
-    position: absolute;
-    margin-right: -250px;
-}
+
 
 /* Sidebar Styles */
 
@@ -119,8 +117,8 @@
     height: 65px;
     font-size: 18px;
     line-height: 60px;
-    
-    
+
+
 }
 
 .sidebar-nav > .sidebar-brand a {
@@ -133,8 +131,8 @@
 }
 
 @media(min-width:768px) {
-    
-    
+
+
     #wrapper {
         padding-left: 0;
     }
@@ -165,8 +163,8 @@
 
 
 @media(max-width:768px) {
-    
-    
+
+
     #wrapper {
         padding-left: 0;
     }
@@ -194,4 +192,3 @@
         margin-right: 0;
     }
 }
-
