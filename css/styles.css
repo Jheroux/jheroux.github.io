@@ -45,8 +45,9 @@
 }
 
 
-.frame{
+.frame iframe{
     border: 0px;
+    width: 100%;
     
     
 }
